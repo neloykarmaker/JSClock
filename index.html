@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="Clock.css">
+    <title>Time & Date</title>
+</head>
+<body>
+<div class="container">	
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+
+  <div class="Clock">
+	<div id="Time"></div>
+	<div id="Date"></div>
+  </div>
+
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="waterDrop"></div>
+ <div class="borDer"></div>
+ <div class="borDer"></div>
+
+</div>	
+
+<svg>
+	<defs>
+		<filter id="go">
+			<feGaussianBlur in ="sourceGraphic"
+			stdDeviation="10"/>
+			<fecolorMatrix in = 'name' mode = 'matrix'
+			values= '1 0 0 0 0
+					 0 1 0 0 0
+					 0 0 1 0 0
+					 0 0 0 30 -15' />
+			<feBlend in = 'SourceGraphic' />
+		</filter>
+	</defs>
+</svg>  
+    
+<script src="app.js"></script>
+</body>
+</html>

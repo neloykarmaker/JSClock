@@ -10,7 +10,7 @@ body{
 	background-color: #cccccc;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	background-size: Auto;
+	background-size: cover;
 }
 
 .container{
